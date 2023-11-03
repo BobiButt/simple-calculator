@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  .data-input{
+    border-radius: 20px;
+  }
+  button{
+border-radius: 20px;
+  }
+  .calculator {
+    border: 2px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    text-align: right;
+  }
+  
+  .buttons button {
+    width: 25%;
+    padding: 10px;
+    margin: 5px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
